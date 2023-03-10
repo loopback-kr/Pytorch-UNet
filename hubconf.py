@@ -4,7 +4,7 @@ from unet import UNet as _UNet
 def unet_carvana(pretrained=False, scale=0.5):
     """
     UNet model trained on the Carvana dataset ( https://www.kaggle.com/c/carvana-image-masking-challenge/data ).
-    Set the scale to 0.5 (50%) when predicting.
+    Set the scale to 0.5 (50%) fdsafdsawhen predicting.
     """
     net = _UNet(n_channels=3, n_classes=2, bilinear=False)
     if pretrained:
